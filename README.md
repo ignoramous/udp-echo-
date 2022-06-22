@@ -1,5 +1,3 @@
-# Trivial TCP/UDP Echo Service
+# Fly.io issue
 
-This code demonstrates how to build a Fly.io service that handles
-both TCP and UDP traffic on the same port. It's slightly more annoying
-than you'd hope, but only slightly.
+I would expect `echo "Hello" | nc -u 37.16.16.113 6000` to work given my configuration but instead `echo "Hello" | nc -u 37.16.16.113 5000` works.
